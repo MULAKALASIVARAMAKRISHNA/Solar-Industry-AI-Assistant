@@ -49,9 +49,8 @@ streamlit run interface.py  # For web interface
 
 ## **4. Example Use Cases**
 
-- **User:** "How do solar panels work?"
+<img width="747" alt="image" src="https://github.com/user-attachments/assets/dfdf011b-4b8f-4030-9451-024b96179ac2" />
 
-  - **AI Response:** "Solar panels convert sunlight into electricity using photovoltaic cells, which generate direct current (DC) that is then converted to alternating current (AC) for home or commercial use."
 
 - **User:** "What is the typical ROI for solar installations?"
 
