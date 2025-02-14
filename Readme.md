@@ -67,6 +67,6 @@ streamlit run interface.py  # For web interface
   5. Launch the web interface (`streamlit run interface.py`).
 - **Example Usage:** Provided test cases and sample queries to validate AI responses.
 
-## **8. Deployment**
+## **6. Deployment**
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗-Hugging%20Face%20Space-blue)](https://huggingface.co/spaces)
 
