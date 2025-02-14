@@ -1,4 +1,4 @@
-# Solar Industry AI Assistant - Submission
+# Solar Industry AI Assistant
 
 ## **1. Project Overview**
 The **Solar Industry AI Assistant** is designed to provide accurate, insightful, and easy-to-understand information about solar energy to both technical and non-technical users. The assistant integrates **LLMs** with a structured knowledge base to ensure reliable responses.
