@@ -1,20 +1,16 @@
 # Solar Industry AI Assistant - Submission
 
 ## **1. Project Overview**
-
 The **Solar Industry AI Assistant** is designed to provide accurate, insightful, and easy-to-understand information about solar energy to both technical and non-technical users. The assistant integrates **LLMs** with a structured knowledge base to ensure reliable responses.
 
 ## **2. Implementation Details**
-
-### **AI Implementation (40%)**
-
+### **AI Implementation**
 - **LLM Integration:** Utilized OpenRouter API for conversational responses.
 - **Prompt Engineering:** Tailored prompts to extract relevant solar industry insights.
 - **Context Management:** Implemented session-based memory to maintain user interaction coherence.
 - **Response Accuracy:** Verified responses with a curated dataset of solar industry knowledge.
 
-### **Development (40%)**
-
+### **Development**
 - **Backend API Development:** Created a REST API using **FastAPI** to handle AI queries.
 - **Web Interface Creation:** Developed an interactive interface using **Streamlit**.
 - **Code Quality:** Followed clean coding principles and modular architecture.
@@ -22,18 +18,15 @@ The **Solar Industry AI Assistant** is designed to provide accurate, insightful,
 - **Error Handling:** Implemented robust exception handling to prevent failures.
 
 ## **3. Project Setup Instructions**
-
 ### **Prerequisites:**
-
 - Python 3.8+
 - Required dependencies in `requirements.txt`
+- OpenRouter API key stored in a `.env` file
 
 ### **Installation Steps:**
-
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/solar-ai-assistant.git
-cd solar-ai-assistant
+git clone https://github.com/MULAKALASIVARAMAKRISHNA/Solar-Industry-AI-Assistant
 
 # Create a virtual environment
 python -m venv venv
@@ -42,43 +35,38 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
+# Create environment variables
+echo "OPENROUTER_API_KEY=your_api_key" > .env
+
 # Run the application
 python app.py  # For backend API
 streamlit run interface.py  # For web interface
 ```
 
 ## **4. Example Use Cases**
+![image](https://github.com/user-attachments/assets/97de030a-f104-4157-b94d-f7985b37c644)
 
-<img width="747" alt="image" src="https://github.com/user-attachments/assets/dfdf011b-4b8f-4030-9451-024b96179ac2" />
+
+![image](https://github.com/user-attachments/assets/32afb1a9-644d-4530-9942-163fc18393c6)
+
+## **5. Features**
+- **Technical & Non-Technical Support:** Provides detailed explanations for a wide audience.
+- **Cost Analysis:** Estimates installation and maintenance costs.
+- **Regulatory Guidance:** Offers compliance information for various regions.
+- **Market Insights:** Analyzes trends in solar energy adoption.
 
 
-- **User:** "What is the typical ROI for solar installations?"
+### **Local Setup Details**
+- **Environment Setup:** Virtual environment (`venv`) setup for dependency management.
+- **Required Dependencies:** Listed in `requirements.txt` and installed via `pip install -r requirements.txt`.
+- **Step-by-step Run Commands:**
+  1. Clone the repository and navigate to the folder.
+  2. Set up the virtual environment and install dependencies.
+  3. Configure the `.env` file with OpenRouter API key.
+  4. Run the backend API (`python app.py`).
+  5. Launch the web interface (`streamlit run interface.py`).
+- **Example Usage:** Provided test cases and sample queries to validate AI responses.
 
-  - **AI Response:** "The return on investment (ROI) for solar installations depends on factors such as location, incentives, and energy usage. On average, ROI ranges between 5-10 years."
-
-## **5. Future Improvements**
-
-- **Enhancing LLM capabilities** with fine-tuned domain-specific training.
-- **Expanding dataset** for more precise solar energy insights.
-- **Integration with real-time data sources** for updated market trends.
-- **Deployment to cloud platforms** for global accessibility.
-
-## **6. Project Deliverables**
-
-✅ **Complete Codebase:** Available in the GitHub repository.\
-✅ **Implementation Documentation:** Detailed steps and API reference.\
-✅ **Example Conversations:** Demonstrating AI capabilities.\
-✅ **Setup Guide:** Installation and execution steps provided.\
-✅ **Deployment:** Available as a ZIP folder with local setup instructions.
-
----
-
-## **7. Optional Performance Metrics**
-
-- **Response Time:** Average **\~250ms** per query.
-- **Accuracy Benchmark:** **85%** based on test dataset evaluation.
-
----
-
-### **Submission Ready! 🚀**
+## **8. Deployment**
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗-Hugging%20Face%20Space-blue)](https://huggingface.co/spaces)
 
